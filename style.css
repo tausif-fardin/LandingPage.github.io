@@ -1,0 +1,48 @@
+
+div:nth-child(1) {
+    font-family: 'Crimson Pro', serif;
+  }
+div:nth-child(2) {
+    font-family: 'Literata’, serif;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    font-size: 48px;
+    background: url(bgu.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    font-size: 3rem;
+    color: antiquewhite;
+}
+
+hr {
+    margin: 20px auto;
+    color: blue;
+    border: 3px solid blue;
+    max-width: 65px;
+    opacity: 1;  
+}
+.btn-xl{
+    padding: 1rem 2rem;
+}
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.btn-primary{
+    background-color: rgb(76, 83, 168);
+    border-color: rgb(76, 83, 168);
+
+}
+.btn-primary:hover{
+    background-color: blue;
+    border-width: 4px;
+}
